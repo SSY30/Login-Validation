@@ -11,9 +11,9 @@ time.sleep(2)
 
 # Test 1 -- Validating login credentials by entering valid data
 
-driver.find_element_by_xpath('//*[@id="login_username"]').send_keys("shantanursy@gmail.com")
+driver.find_element_by_xpath('//*[@id="login_username"]').send_keys("")
 time.sleep(2)
-driver.find_element_by_xpath('//*[@id="login_password"]').send_keys("pw_IndiaTest!")
+driver.find_element_by_xpath('//*[@id="login_password"]').send_keys("")
 time.sleep(2)
 driver.find_element_by_xpath('//*[@id="login_button"]').click()
 time.sleep(10)
